@@ -114,9 +114,9 @@ const tripsUpdateTrip = async (req, res) => {
 
 
 const getUser = (req, res, callback) => {
-    if (req.payload && req.payload.email) {
+    if (req.auth.email) {
         User
-            .findOne({ email: req.payload.email })
+            .findOne({ email: req.auth.email })
             .exec((err, user) => {
                 if(!user) {
                     return res
@@ -133,7 +133,7 @@ const getUser = (req, res, callback) => {
     } else {
         return res
             .status(404)
-            .json({ "message": "User not found" });
+            .json({ "message": "User not found, either" });
     }
 };
 
