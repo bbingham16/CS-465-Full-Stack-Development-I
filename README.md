@@ -1,5 +1,7 @@
 # CS-465-Full-Stack-Development-I
 
+
+
 Architecture
 
 •	Compare and contrast the types of front-end development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
@@ -11,6 +13,8 @@ Architecture
 
   	 o  Using NoSQL MongoDB database allowed us to utilize the previous implementation of NodeJS, as well as reading in JSON files. Additionally, it allows for the ability for future development 			as it is easily scalable and adaptable, making it a great choice for our project.
    
+
+
 
 Functionality
 
@@ -25,6 +29,8 @@ Functionality
   	 o One of the instances that sticks out to me the most is the implementation of the hbs and SPA. When we first started working on this project, we worked with Express HTML, and the load time 
    	was longer and every time the user interacted with the page, the whole page reloaded. Creating the hbs aspect of the program allowed for faster reload times and the SPA allowed for only 
    	certain components to be reloaded based upon user input. This improved user experience by eliminating multiple lengthy reload times with every interaction.
+
+
    
 
 Testing
@@ -38,6 +44,8 @@ Testing
    reflected. It was a way to test all the API endpoints as well as the implementation of our database and the security layers with the added token implementation. 
 
    
+
+
 
 Reflection
 
