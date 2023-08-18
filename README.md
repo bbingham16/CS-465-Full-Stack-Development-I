@@ -4,31 +4,27 @@ Architecture
 
 •	Compare and contrast the types of front-end development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
-   o	While developing the front-end portion of our project we developed in several stages. We first started in Express HTML. With Express HTML there was a lot of reloading, and because of that 
-   it caused slow load times for users. Handlebars or (hbs) were implemented to eliminate loading all of the components repeatedly. JavaScript allows for the implementation of both front and 
-   backend communication, considering HTML never provided the backend interactions and only the frontend. The single-page application or (SPA) allowed the user to fully load in one page from the 
-   MongoDB database and respond to user interactions as necessary without refreshing the entire page. 
+   	o	While developing the front-end portion of our project we developed in several stages. We first started in Express HTML. With Express HTML there was a lot of reloading, and because of 	that, it caused slow load times for users. Handlebars or (hbs) were implemented to eliminate loading all of the components repeatedly. JavaScript allows for the implementation of both front and backend communication, considering HTML never provided the backend interactions and only the frontend. The single-page application or (SPA) allowed the user to fully load in one page from the MongoDB database and respond to user interactions as necessary without refreshing the entire page. 
 
    
 •	Why did the backend use a NoSQL MongoDB database?
 
-   o	Using NoSQL MongoDB database allowed us to utilize the previous implementation of NodeJS, as well as reading in JSON files. Additionally, it allows for the ability for future development as 
-   it is easily scalable and adaptable, making it a great choice for our project.
+  	 o  Using NoSQL MongoDB database allowed us to utilize the previous implementation of NodeJS, as well as reading in JSON files. Additionally, it allows for the ability for future development 			as it is easily scalable and adaptable, making it a great choice for our project.
    
 
 Functionality
 
 •	How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces? 
 
-   o	JSON allowed us to store data effectively for it to be retrieved to formatted into a Javascript object to be used within Javascript when connecting the frontend with the backend 
-    development. Because of this Javascript conversion, the ability to pull information requested from the front-end to the backend is relatively easy and expandable.
+   	o	JSON allowed us to store data effectively for it to be retrieved to formatted into a Javascript object to be used within Javascript when connecting the frontend with the backend 
+    	development. Because of this Javascript conversion, the ability to pull information requested from the front-end to the backend is relatively easy and expandable.
 
     
 •	Provide instances in the full stack process when you refactored code to improve functionality and efficiencies and name the benefits that come from reusable user interface (UI) components.
 
-   o One of the instances that sticks out to me the most is the implementation of the hbs and SPA. When we first started working on this project, we worked with Express HTML, and the load time 
-   was longer and every time the user interacted with the page, the whole page reloaded. Creating the hbs aspect of the program allowed for faster reload times and the SPA allowed for only 
-   certain components to be reloaded based upon user input. This improved user experience by eliminating multiple lengthy reload times with every interaction.
+  	 o One of the instances that sticks out to me the most is the implementation of the hbs and SPA. When we first started working on this project, we worked with Express HTML, and the load time 
+   	was longer and every time the user interacted with the page, the whole page reloaded. Creating the hbs aspect of the program allowed for faster reload times and the SPA allowed for only 
+   	certain components to be reloaded based upon user input. This improved user experience by eliminating multiple lengthy reload times with every interaction.
    
 
 Testing
