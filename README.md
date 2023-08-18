@@ -1,6 +1,7 @@
 # CS-465-Full-Stack-Development-I
 
 Architecture
+
 •	Compare and contrast the types of front-end development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
    o	While developing the front-end portion of our project we developed in several stages. We first started in Express HTML. With Express HTML there was a lot of reloading, and because of that 
@@ -16,6 +17,7 @@ Architecture
    
 
 Functionality
+
 •	How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces? 
 
    o	JSON allowed us to store data effectively for it to be retrieved to formatted into a Javascript object to be used within Javascript when connecting the frontend with the backend 
@@ -30,6 +32,7 @@ Functionality
    
 
 Testing
+
 •	Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full-stack application.
 
    o	Utilizing MongoDBCompass allowed us to manually input data into our database to test and retrieve it from the client side. Additionally, it allowed us to delete portions as well as visually 
@@ -41,6 +44,7 @@ Testing
    
 
 Reflection
+
 •	How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
    o	This was my first experience working with full-stack development. It was a lot of information and moving parts, but I really enjoyed how we made a basic webpage much more efficient, and 
