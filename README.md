@@ -4,8 +4,8 @@
 Architecture
 
 •	Compare and contrast the types of front-end development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-	 	 o While developing the front-end portion of our project we developed in several stages. We first started in Express HTML. With Express HTML there was a lot of reloading, and because of 	 
-    that, it caused slow load times for users. Handlebars or (hbs) were implemented to eliminate loading all of the components repeatedly. JavaScript allows for the implementation of both front and backend communication, considering HTML never provided the backend interactions and only the frontend. The single-page application or (SPA) allowed the user to fully load in one page from the MongoDB database and respond to user interactions as necessary without refreshing the entire page. 
+
+o While developing the front-end portion of our project we developed in several stages. We first started in Express HTML. With Express HTML there was a lot of reloading, an because of that, it caused slow load times for users. Handlebars or (hbs) were implemented to eliminate loading all of the components repeatedly. JavaScript allows for the implementation of both front and backend communication, considering HTML never provided the backend interactions and only the frontend. The single-page application or (SPA) allowed the user to fully load in one page from the MongoDB database and respond to user interactions as necessary without refreshing the entire page. 
 
    
 •	Why did the backend use a NoSQL MongoDB database?
